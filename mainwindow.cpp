@@ -799,7 +799,6 @@ void MainWindow::on_pushButton_8_clicked()
 
 }
 
-
 void MainWindow::on_pushButton_9_clicked()
 {
     QString Auto_file;

@@ -47,4 +47,7 @@ LIBS += -LC:/Opencv-4.6.0/opencv/build/install/x64/mingw/lib/ -llibopencv_videoi
 INCLUDEPATH += C:/Opencv-4.6.0/opencv/build/include
 DEPENDPATH += C:/Opencv-4.6.0/opencv/build/include
 
+DISTFILES += \
+    C:/Users/gmura/Downloads/SpyBot/SpyBot.qss
+
 
