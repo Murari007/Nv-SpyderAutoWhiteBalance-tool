@@ -11,6 +11,7 @@
 #include <QDebug>
 #include <qformlayout.h>
 #include <QDialog>
+#include <QScreen>
 #include <inputdialog.h>
 #include <QJsonDocument>
 #include <QJsonObject>
@@ -85,7 +86,7 @@ MainWindow::MainWindow(QWidget *parent)
     ui->comboBox_2->addItem("Gray Patch (Right)");
     ui->comboBox_2->addItem("Black Patch");
     ui->comboBox_2->addItem("Black Trap");
-    ui->comboBox_2->addItem("Peak Value");
+    ui->comboBox_2->addItem("Chrome Ball");
 
     ui->comboBox_3->addItem("White Patch (Left)");
     ui->comboBox_3->addItem("White Patch (Right)");
@@ -173,7 +174,7 @@ void Averages(Mat img,Rect box,String selectedregion)
     Mat crop(img, box); //Selecting a ROI(region of interest) from the original pic
 
 
-    if(roi.region == "Peak Value")
+    if(roi.region == "Chrome Ball")
     {
         // Convert the ROI to grayscale
         Mat gray;
@@ -495,16 +496,30 @@ void MainWindow::on_pushButton_2_clicked()
 {
     namedWindow("Demosaiced Image", WINDOW_NORMAL);
     resizeWindow("Demosaiced Image", 800, 600);
-    moveWindow("Demosaiced Image", 450, 350);
+
+    // Get the primary screen
+    QScreen *screen = QGuiApplication::primaryScreen();
+
+    // Get the screen geometry
+    QRect screenGeometry = screen->geometry();
+
+    // Calculate the position to center the window
+    int windowWidth = 800;
+    int windowHeight = 600;
+    int windowX = (screenGeometry.width() - windowWidth) / 2;
+    int windowY = (screenGeometry.height() - windowHeight) / 2;
+
+    moveWindow("Demosaiced Image", windowX, windowY);
     imshow("Demosaiced Image", demosaicedImage);
-    setMouseCallback("Demosaiced Image", mouse_call);//Setting the mouse callback for selecting the region with mouse
+    setMouseCallback("Demosaiced Image", mouse_call);
     waitKey(0);
     destroyAllWindows();
+
 
     QString selectedregion = ui->comboBox_2->currentText();
     String selected;
     selected = selectedregion.toStdString();
-    Averages(demosaicedImage,box,selected);
+    Averages(demosaicedImage, box, selected);
 }
 
 void MainWindow::on_pushButton_3_clicked()
