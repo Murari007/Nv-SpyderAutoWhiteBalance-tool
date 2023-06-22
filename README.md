@@ -17,9 +17,10 @@
       <ul>
         <li><a href="#dependencies">Dependencies</a></li>
         <li><a href="#setting-up-Qt-with-Opencv-in-Windows">Setting up Qt with Opencv in Windows</a></li>
+        <li><a href="#running-the-application">Running the Application</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
+    <li><a href="#usage-of-GUI-Tool">Usage of the GUI Tool</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -71,8 +72,11 @@ This project depends on the following libraries and tools
 
 To run the application, follow these steps:
 
-* Clone the Repository: Open the Qt software and clone the repository by clicking on File -> New Project -> Import Project -> Git -> Clone Repository. Enter the repository URL (https://github.com/your-username/your-repository.git) and choose the destination folder on your local machine.
+To run the application, follow these steps:
 
+1. Clone the Repository: Open the Qt software and clone the repository by clicking on File -> New File or Project -> Import Project -> Git -> Clone Repository. Enter the repository URL (https://github.com/Murari007/Measurement-of-White-Point-and-Optical-Black-Level-from-a-Reference-Object-SpyerCube-..git) and choose the destination folder on your local machine.<br>
+2. Open the Project: After cloning the repository, you will see the project listed in the "Projects" tab. Click on the project to open it in the Qt software.<br>
+3. Build the Project: Build the project by clicking on the build button (hammer icon) or by selecting Build -> Build All from the menu. This will compile the code and generate the executable file.<br>
+4. Run the Project: Once the build is successful, you can run the project by clicking on the run button (play icon) or by selecting Build -> Run from the menu. This will execute the code and display the output or the desired functionality of your project.<br>
 
-
-
+## Usage of the GUI Tool
