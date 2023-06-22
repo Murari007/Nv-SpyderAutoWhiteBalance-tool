@@ -80,3 +80,5 @@ To run the application, follow these steps:
 4. Run the Project: Once the build is successful, you can run the project by clicking on the run button (play icon) or by selecting Build -> Run from the menu. This will execute the code and display the output or the desired functionality of your project.<br>
 
 ## Usage of the GUI Tool
+
+As soon as we run the Application the GUI tool Opens.
