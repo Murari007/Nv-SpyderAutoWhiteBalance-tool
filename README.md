@@ -88,3 +88,19 @@ As soon as we run the Application the GUI tool Opens.
 </p>
 
 Configure the image settings by clicking the "Configuration Settings" option. Enter the Height, Width, Bit Depth, CFA Pattern etc..
+
+<div align="center">
+  <img src="https://github.com/Murari007/Measurement-of-White-Point-and-Optical-Black-Level-from-a-Reference-Object-SpyerCube./assets/83585005/85852615-7fda-408d-bae6-7ea38e5988f8" alt="configure" width="400">
+</div>
+
+* After configuring the image settings, then read the raw image data from a selected file and perform Black Level Substraction and Demosaicing operation.
+* After Demosiacing manually select six region of interest of SpyderCube to measure Statistical Data. 
+* Save the Data to a .csv file.
+* Apply the gains of respective region gain to white balance the image and proceed with Gamma Correction.
+* Use the Auto-select option to perfrom on large image datasets.
+
+
+
+
+
+
