@@ -15,8 +15,8 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#dependencies">Dependencies</a></li>
+        <li><a href="#setting-up-Qt-with-Opencv-in-Windows">Setting up Qt with Opencv in Windows</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -66,6 +66,8 @@ This project depends on the following libraries and tools
 ### Setting up Qt with Opencv In Windows
 
 [Watch the video tutorial](https://www.youtube.com/watch?v=0KNh_7fUqrM)
+
+### Running the Application
 
 
 
