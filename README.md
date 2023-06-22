@@ -20,7 +20,9 @@
         <li><a href="#running-the-application">Running the Application</a></li>
       </ul>
     </li>
-    <li><a href="#usage-of-GUI-Tool">Usage of the GUI Tool</a></li>
+    <li>
+      <a href="#usage-of-the-GUI-Tool">Usage of the GUI Tool</a>
+    </li>
   </ol>
 </details>
 
