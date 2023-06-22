@@ -21,14 +21,8 @@
       </ul>
     </li>
     <li><a href="#usage-of-GUI-Tool">Usage of the GUI Tool</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
-
 ## About the Project
 
 SpyderCube is a Color Calibration tool which is used for color correction and white balance adjustment in digital photography and video. 
