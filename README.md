@@ -65,8 +65,7 @@ This project depends on the following libraries and tools
 
 ### Setting up Qt with Opencv In Windows
 
-[![Setting up Qt with OpenCV in Windows](http://img.youtube.com/vi/0KNh_7fUqrM/0.jpg)](https://youtu.be/0KNh_7fUqrM)
-
+[Watch the video tutorial](https://www.youtube.com/watch?v=0KNh_7fUqrM)
 
 
 
