@@ -82,3 +82,5 @@ To run the application, follow these steps:
 ## Usage of the GUI Tool
 
 As soon as we run the Application the GUI tool Opens.
+
+![GUI TOOL](images/GUI%20TOOL.png)
