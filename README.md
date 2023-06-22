@@ -69,6 +69,10 @@ This project depends on the following libraries and tools
 
 ### Running the Application
 
+To run the application, follow these steps:
+
+* Clone the Repository: Open the Qt software and clone the repository by clicking on File -> New Project -> Import Project -> Git -> Clone Repository. Enter the repository URL (https://github.com/your-username/your-repository.git) and choose the destination folder on your local machine.
+
 
 
 
