@@ -81,7 +81,7 @@ To run the application, follow these steps:
 As soon as we run the Application the GUI tool Opens.
 
 <p align="center">
-  <img src="https://github.com/Murari007/Measurement-of-White-Point-and-Optical-Black-Level-from-a-Reference-Object-SpyerCube./assets/83585005/f3c3886f-e069-40ac-bea9-8917d126e0a9" alt="guitool" width="800">
+  <img src="https://github.com/Murari007/Measurement-of-White-Point-and-Optical-Black-Level-from-a-Reference-Object-SpyerCube./assets/83585005/9ca9cfb0-141d-44cc-9498-f10c40aede69" alt="guitool" width="800">
 </p>
 
 Configure the image settings by clicking the "Configuration Settings" option. Enter the Height, Width, Bit Depth, CFA Pattern etc..
