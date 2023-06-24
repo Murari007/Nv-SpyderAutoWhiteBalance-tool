@@ -301,6 +301,7 @@ void Output(Mat image, float alpha, float beta)
 }
 
 
+
 void Gammacorrection(Mat img)
 {
     // Normalize pixel values
@@ -322,6 +323,7 @@ void Gammacorrection(Mat img)
 
     // Scale pixel values back to [0, 65536] range
     img_gamma.convertTo(img_gamma, CV_16U, 65536);
+
 }
 
 void write_to_csv(const vector<ROI>& roi_values, const string& filename)

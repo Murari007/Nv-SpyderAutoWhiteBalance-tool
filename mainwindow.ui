@@ -17,11 +17,16 @@
    <widget class="QLabel" name="label_pic">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>170</y>
+      <x>60</x>
+      <y>160</y>
       <width>881</width>
       <height>531</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
     </property>
     <property name="text">
      <string/>
@@ -31,10 +36,17 @@
     <property name="geometry">
      <rect>
       <x>990</x>
-      <y>140</y>
-      <width>151</width>
+      <y>160</y>
+      <width>191</width>
       <height>29</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
     </property>
     <property name="text">
      <string>Choose Image Path</string>
@@ -44,10 +56,16 @@
     <property name="geometry">
      <rect>
       <x>990</x>
-      <y>190</y>
+      <y>210</y>
       <width>411</width>
       <height>29</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
     </property>
     <property name="text">
      <string>Black Level</string>
@@ -57,10 +75,16 @@
     <property name="geometry">
      <rect>
       <x>1250</x>
-      <y>240</y>
+      <y>260</y>
       <width>151</width>
       <height>29</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
     </property>
     <property name="text">
      <string>Demosaic</string>
@@ -70,20 +94,32 @@
     <property name="geometry">
      <rect>
       <x>990</x>
-      <y>240</y>
+      <y>260</y>
       <width>251</width>
       <height>28</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
       <x>1250</x>
-      <y>290</y>
+      <y>300</y>
       <width>151</width>
       <height>29</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
     </property>
     <property name="text">
      <string> Select ROI</string>
@@ -93,20 +129,32 @@
     <property name="geometry">
      <rect>
       <x>990</x>
-      <y>290</y>
+      <y>300</y>
       <width>251</width>
       <height>28</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_3">
     <property name="geometry">
      <rect>
       <x>990</x>
-      <y>340</y>
+      <y>350</y>
       <width>181</width>
       <height>29</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
     </property>
     <property name="text">
      <string>Save Meta-Data</string>
@@ -133,10 +181,16 @@ color: rgb(170, 0, 0);</string>
     <property name="geometry">
      <rect>
       <x>1250</x>
-      <y>390</y>
-      <width>151</width>
+      <y>410</y>
+      <width>171</width>
       <height>29</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
     </property>
     <property name="text">
      <string>White Balance</string>
@@ -146,10 +200,16 @@ color: rgb(170, 0, 0);</string>
     <property name="geometry">
      <rect>
       <x>990</x>
-      <y>440</y>
+      <y>460</y>
       <width>411</width>
       <height>29</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
     </property>
     <property name="text">
      <string>Gamma correction</string>
@@ -159,24 +219,30 @@ color: rgb(170, 0, 0);</string>
     <property name="geometry">
      <rect>
       <x>990</x>
-      <y>390</y>
+      <y>410</y>
       <width>251</width>
       <height>28</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
       <x>1020</x>
-      <y>490</y>
+      <y>500</y>
       <width>371</width>
       <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>12</pointsize>
+      <pointsize>15</pointsize>
       <bold>true</bold>
      </font>
     </property>
@@ -190,11 +256,17 @@ color: rgb(170, 0, 0);</string>
    <widget class="QPushButton" name="pushButton_6">
     <property name="geometry">
      <rect>
-      <x>990</x>
-      <y>540</y>
-      <width>171</width>
+      <x>970</x>
+      <y>560</y>
+      <width>221</width>
       <height>29</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
     </property>
     <property name="text">
      <string>Choose Dataset Folder</string>
@@ -203,11 +275,17 @@ color: rgb(170, 0, 0);</string>
    <widget class="QPushButton" name="pushButton_7">
     <property name="geometry">
      <rect>
-      <x>1250</x>
-      <y>650</y>
+      <x>1260</x>
+      <y>660</y>
       <width>141</width>
       <height>29</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
     </property>
     <property name="text">
      <string>Auto-Select</string>
@@ -218,9 +296,16 @@ color: rgb(170, 0, 0);</string>
      <rect>
       <x>990</x>
       <y>50</y>
-      <width>411</width>
-      <height>29</height>
+      <width>421</width>
+      <height>41</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
     </property>
     <property name="text">
      <string>Configuration</string>
@@ -229,7 +314,7 @@ color: rgb(170, 0, 0);</string>
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>1020</x>
+      <x>1010</x>
       <y>0</y>
       <width>371</width>
       <height>51</height>
@@ -237,7 +322,8 @@ color: rgb(170, 0, 0);</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>12</pointsize>
+      <family>Calibri</family>
+      <pointsize>18</pointsize>
       <bold>true</bold>
      </font>
     </property>
@@ -251,21 +337,43 @@ color: rgb(170, 0, 0);</string>
    <widget class="QLabel" name="label_6">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>30</y>
+      <x>50</x>
+      <y>26</y>
       <width>891</width>
       <height>101</height>
      </rect>
     </property>
+    <property name="maximumSize">
+     <size>
+      <width>891</width>
+      <height>101</height>
+     </size>
+    </property>
+    <property name="baseSize">
+     <size>
+      <width>20</width>
+      <height>30</height>
+     </size>
+    </property>
     <property name="font">
      <font>
       <family>Segoe UI</family>
-      <pointsize>20</pointsize>
+      <pointsize>18</pointsize>
+      <italic>false</italic>
       <bold>true</bold>
      </font>
     </property>
+    <property name="lineWidth">
+     <number>2</number>
+    </property>
     <property name="text">
-     <string>Measurement of White Point and Black Level from Reference Object (SpyderCube)</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Measurement of White Point and Black Level from Reference Object&lt;/p&gt;&lt;p&gt; (SpyderCube)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::RichText</enum>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -275,50 +383,80 @@ color: rgb(170, 0, 0);</string>
     <property name="geometry">
      <rect>
       <x>1010</x>
-      <y>650</y>
+      <y>660</y>
       <width>231</width>
       <height>28</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
     </property>
    </widget>
    <widget class="QLineEdit" name="csv_filepath">
     <property name="geometry">
      <rect>
       <x>1180</x>
-      <y>340</y>
+      <y>350</y>
       <width>261</width>
       <height>28</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
     </property>
    </widget>
    <widget class="QLineEdit" name="image_path">
     <property name="geometry">
      <rect>
-      <x>1160</x>
-      <y>140</y>
-      <width>281</width>
+      <x>1190</x>
+      <y>160</y>
+      <width>251</width>
       <height>28</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
     </property>
    </widget>
    <widget class="QLineEdit" name="Autofolder_path">
     <property name="geometry">
      <rect>
-      <x>1170</x>
-      <y>540</y>
-      <width>281</width>
+      <x>1200</x>
+      <y>560</y>
+      <width>251</width>
       <height>28</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_9">
     <property name="geometry">
      <rect>
       <x>990</x>
-      <y>590</y>
+      <y>610</y>
       <width>171</width>
       <height>29</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
     </property>
     <property name="text">
      <string>Choose CSV File</string>
@@ -327,25 +465,31 @@ color: rgb(170, 0, 0);</string>
    <widget class="QLineEdit" name="Autocsv_path">
     <property name="geometry">
      <rect>
-      <x>1170</x>
-      <y>590</y>
+      <x>1180</x>
+      <y>610</y>
       <width>271</width>
       <height>28</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
     </property>
    </widget>
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
       <x>1030</x>
-      <y>100</y>
+      <y>110</y>
       <width>371</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>12</pointsize>
+      <pointsize>15</pointsize>
       <bold>true</bold>
      </font>
     </property>
