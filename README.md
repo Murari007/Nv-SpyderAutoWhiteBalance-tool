@@ -87,7 +87,7 @@ As soon as we run the Application the GUI tool Opens.
 Configure the image settings by clicking the "Configuration Settings" option. Enter the Height, Width, Bit Depth, CFA Pattern etc..
 
 <div align="center">
-  <img src="https://github.com/Murari007/Measurement-of-White-Point-and-Optical-Black-Level-from-a-Reference-Object-SpyerCube./assets/83585005/85852615-7fda-408d-bae6-7ea38e5988f8" alt="configure" width="400">
+  <img src="https://github.com/Murari007/Measurement-of-White-Point-and-Optical-Black-Level-from-a-Reference-Object-SpyerCube./assets/83585005/6065943a-a3f2-4e9c-8567-2ea41628e07b" alt="configure" width="400">
 </div>
 
 * After configuring the image settings, then read the raw image data from a selected file and perform Black Level Substraction and Demosaicing operation.
